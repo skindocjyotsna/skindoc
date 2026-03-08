@@ -88,8 +88,7 @@ function initSlider() {
   let autoTimer;
 
   function getPerView() {
-    if (window.innerWidth >= 1024) return 3;
-    if (window.innerWidth >= 640)  return 2;
+    if (window.innerWidth >= 768) return 2;
     return 1;
   }
 
