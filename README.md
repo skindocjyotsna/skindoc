@@ -1,3 +1,6 @@
+# skindoc
+skindoc landing page
+
 # Dr. Jyotsna's SkinDoc Clinic — Landing Page
 
 A modern, fully responsive static landing page for Dr. Jyotsna's SkinDoc Clinic, Ravet, PCMC.
