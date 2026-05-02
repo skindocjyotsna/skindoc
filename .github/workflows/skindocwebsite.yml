@@ -41,7 +41,7 @@ jobs:
         run: |
           sed -i "s/YOUR_API_KEY/$MAPS_API_KEY/g" index.html
           sed -i "s/YOUR_PLACE_ID/$MAPS_PLACE_ID/g" script.js
-          sed -i "s/YOUR_GA_MEASUREMENT_ID/$GA_MEASUREMENT_ID/g" index.html
+          sed -i "s/YOUR_GA_MEASUREMENT_ID/$GA_MEASUREMENT_ID/g" *.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

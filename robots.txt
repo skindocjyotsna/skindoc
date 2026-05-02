@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://skindocjyotsna.github.io/skindoc/sitemap.xml
+Sitemap: https://skindocjyotsna.in/sitemap.xml
 
 User-agent: AdsBot-Google
 Allow: /
