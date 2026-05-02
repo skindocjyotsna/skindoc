@@ -1,7 +1,7 @@
 # skindoc
 skindoc landing page
 
-# Dr. Jyotsna's SkinDoc Clinic — Landing Page
+# Dr. Jyotsna's SkinDoc Clinic - Landing Page
 
 A modern, fully responsive static landing page for Dr. Jyotsna's SkinDoc Clinic, Ravet, PCMC.
 
@@ -32,13 +32,13 @@ SKINDOC/
 ├── script.js               # Tabs, slider, form validation, animations
 ├── assets/
 │   └── images/
-│       ├── drjo.jpg        # Doctor photo (Dr. Jyotsna)
-│       └── clinic.jpg      # Clinic exterior/interior photo
+│       ├── best-dermatologist-dr-jyotsna-ravet-pune.jpg # Doctor photo (Dr. Jyotsna)
+│       └── best-skin-clinic-ravet-pune.jpg # Clinic exterior/interior photo
 ├── data/
 │   └── services.txt        # Full services data (source reference)
 ├── docs/
 │   ├── TODO.md             # Backend & WhatsApp integration roadmap
-│   └── README.md           # (this file — kept at root too)
+│   └── README.md           # (this file - kept at root too)
 └── README.md
 ```
 
@@ -57,17 +57,17 @@ SKINDOC/
 
 ### 1. Hero
 - Clinic name & tagline
-- Doctor photo (`drjo.jpg`)
+- Doctor photo (`best-dermatologist-dr-jyotsna-ravet-pune.jpg`)
 - Book Appointment + WhatsApp buttons
 - Stats: 7+ years, 20+ treatments, 4.9 rating
 
 ### 2. About Doctor
-- Doctor photo (`drjo.jpg`) — `object-position: center`
+- Doctor photo (`best-dermatologist-dr-jyotsna-ravet-pune.jpg`) - `object-position: center`
 - Qualifications: BHMS, PGDCC
 - Experience: 7+ years in skin, hair & cosmetics
 - Book Consultation + WhatsApp buttons
 
-### 3. Services (Tabbed — 4 Categories)
+### 3. Services (Tabbed - 4 Categories)
 
 **Skin Treatments**
 - Chemical Peels
@@ -106,7 +106,7 @@ SKINDOC/
 
 ### 5. Before / After Results
 - 3 result cards (Acne & Scars, Hair Regrowth, Pigmentation)
-- Photo placeholders — replace with real patient photos
+- Photo placeholders - replace with real patient photos
 
 ### 6. Patient Testimonials (Auto-sliding)
 - CA Dnyaneshwar Gopale
@@ -116,7 +116,7 @@ SKINDOC/
 - Sneha Kulkarni (Instagram Creator)
 
 ### 7. Clinic Location
-- Clinic photo (`clinic.jpg`)
+- Clinic photo (`best-skin-clinic-ravet-pune.jpg`)
 - Full address with Google Maps embed
 - Phone, WhatsApp, Instagram, Timings
 

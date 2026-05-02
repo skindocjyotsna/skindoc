@@ -2,7 +2,7 @@
 
 ---
 
-## Phase 1 — Quick Win: WhatsApp Pre-fill (No Backend) ✅ DONE
+## Phase 1 - Quick Win: WhatsApp Pre-fill (No Backend) ✅ DONE
 > Zero setup. Form data sent directly via WhatsApp link.
 
 - [x] On form submit, build a `wa.me` URL with form data (name, phone, service, date, time) URL-encoded as message
@@ -18,7 +18,7 @@ https://wa.me/9921358563?text=Name: John%0AService: Acne Treatment%0ADate: 2025-
 
 ---
 
-## Phase 2 — Google Sheets Backend (No Server Needed)
+## Phase 2 - Google Sheets Backend (No Server Needed)
 > Free, serverless. Appointments saved directly to a Google Sheet. Takes ~1 hour to set up.
 
 - [ ] Create a Google Sheet to store appointments
@@ -38,7 +38,7 @@ Timestamp | Name | Phone | Email | Service | Date | Time | Notes | Status
 
 ---
 
-## Phase 3 — Proper Backend (Node.js + Express)
+## Phase 3 - Proper Backend (Node.js + Express)
 > Full control. Recommended when patient volume grows.
 
 ### 3a. Project Setup
@@ -49,17 +49,17 @@ Timestamp | Name | Phone | Email | Service | Date | Time | Notes | Status
 - [ ] Add `.env` to `.gitignore`
 
 ### 3b. API Endpoints
-- [ ] `POST /api/appointment` — receive form data, validate, save
-- [ ] `GET /api/appointments` — list all (admin only, protected)
-- [ ] `POST /api/appointment/:id/confirm` — mark as confirmed
-- [ ] `POST /api/appointment/:id/cancel` — mark as cancelled
+- [ ] `POST /api/appointment` - receive form data, validate, save
+- [ ] `GET /api/appointments` - list all (admin only, protected)
+- [ ] `POST /api/appointment/:id/confirm` - mark as confirmed
+- [ ] `POST /api/appointment/:id/cancel` - mark as cancelled
 
 ### 3c. Database
 - [ ] Option A (Simple): JSON file store with `lowdb`
 - [ ] Option B (Scalable): MongoDB Atlas (free tier) with `mongoose`
 - [ ] Option C (Structured): PostgreSQL on Supabase (free tier)
 
-**Recommended:** MongoDB Atlas — free, no server to manage, easy to scale
+**Recommended:** MongoDB Atlas - free, no server to manage, easy to scale
 
 ### 3d. WhatsApp Notification (Twilio)
 - [ ] Sign up for Twilio, enable WhatsApp Sandbox
@@ -81,12 +81,12 @@ Timestamp | Name | Phone | Email | Service | Date | Time | Notes | Status
 
 ---
 
-## Phase 4 — Admin Dashboard
+## Phase 4 - Admin Dashboard
 > Simple UI to view, confirm, and manage appointments.
 
-- [ ] Create `admin/index.html` — password-protected page
+- [ ] Create `admin/index.html` - password-protected page
 - [ ] Table view of all appointments (Name, Service, Date, Status)
-- [ ] Confirm / Cancel buttons — trigger WhatsApp reply to patient
+- [ ] Confirm / Cancel buttons - trigger WhatsApp reply to patient
 - [ ] Filter by date, service, status
 - [ ] Export to CSV
 
@@ -94,12 +94,12 @@ Timestamp | Name | Phone | Email | Service | Date | Time | Notes | Status
 
 ---
 
-## Phase 5 — Enhancements
+## Phase 5 - Enhancements
 > Nice-to-haves after the core system works.
 
-- [ ] Google Calendar integration — auto-create calendar event on confirmation
+- [ ] Google Calendar integration - auto-create calendar event on confirmation
 - [ ] SMS fallback (Twilio SMS) for patients without WhatsApp
-- [ ] Appointment reminder — WhatsApp message 24h before appointment
+- [ ] Appointment reminder - WhatsApp message 24h before appointment
 - [ ] Google Reviews widget on landing page
 - [ ] Real before/after patient photos section
 - [ ] Instagram feed embed (`@skindoc_jyotsna`)
@@ -145,7 +145,7 @@ Timestamp | Name | Phone | Email | Service | Date | Time | Notes | Status
 - [x] Static landing page built (index.html, styles.css, script.js)
 - [x] Appointment form with client-side validation
 - [x] WhatsApp button linking to wa.me/9921358563
-- [x] Doctor photo (drjo.jpg) and clinic photo (clinic.jpg) integrated
+- [x] Doctor photo (best-dermatologist-dr-jyotsna-ravet-pune.jpg) and clinic photo (best-skin-clinic-ravet-pune.jpg) integrated
 - [x] Form opens WhatsApp with pre-filled appointment message (Phase 1)
 - [ ] Form submission connected to backend
 - [ ] WhatsApp notification on new booking
